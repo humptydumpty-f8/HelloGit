@@ -1,3 +1,6 @@
+/**
+ * add javaDoc
+ */
 public class HeloGit {
     private String hello;
 
