@@ -1,6 +1,16 @@
 public class HeloGit {
+    private String hello;
+
+    public HeloGit() {
+        this.hello = "Hello Git!";
+    }
+
+    public void print (){
+        System.out.println(hello);
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello Git!");
+        (new HeloGit()).print();
 
     }
 }
